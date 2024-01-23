@@ -49,8 +49,11 @@
 
 
 @media  screen and (max-width:600px) {
-    #contact,footer{
+    #contact{
         height: 40vh;
+    }
+    footer{
+        height:20vh;
     }
 
     #profile{
