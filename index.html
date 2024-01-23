@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shahina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shahina</div>
+        <div >
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shahina</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic_container">
+            <img src="./assets/profilepic.png" 
+            alt="shahina-profile-pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">
+                Hello world ! i'm
+            </p>
+            <h1 class="title">
+              Shahina 
+            </h1>
+            <p class="section_text_p2">Web Developer </p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/shanu.pdf')">
+                Download CV
+                </button>
+                
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+
+            </div>
+            <div id="socials_container">
+                <img src="./assets/linkedin.png" alt="linkedin-profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/shahina-ks'"
+                />
+                <img src="./assets/github.png" alt="github-profile"
+                class="icon" onclick="location.href='https://github.com/Shahina-ks'"
+                />
+            </div>
+        </div>
+
+    </section>
+
+    <!----about -->
+    <section id="about">
+        <p class="section_text_p1">Get To Know More </p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <div class="section_pic_container">
+                <img src="./assets/aboutimg.png" alt="imageoflap"
+                class="about_pic"/>
+            </div>
+            <div class="about_details_container">
+                <div class="about_container">
+                    <div class="details_container">
+                        <img src="./assets/education.png"
+                         alt="education icon" class="icon"/>
+                         <h3>education</h3>
+                         <p><li>Master of Computer Application(MCA)<br>
+                         <li>BCA Bachelor of Computer Application(BCA)</li></p>
+
+                    </div>
+                </div>
+                <div class="text_container">
+                    <p>Hi there , I'm Shahina , an MCA graduate with a flair for
+                        web developement and passion for crafting delightful user interfaces.
+                        Aspiring to be both a web developer and UI/UX designer , I navigate the digital 
+                        landscape with a blend of creativity and precision.
+
+
+
+                        
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </section>
+ <!--experience-->
+    <section id="skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Tech Stack</h1>
+        <div class="experience_details_container">
+            <div class="about_container">
+                <div class="details_container">
+                    <h2 class="experience-sub-title">Frontend
+                        Development
+                    </h2>
+                    <div class="article_container"> <!---artcle1-->
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <P>Experienced</P>
+                        </div>
+                    </article>
+<!---article 2-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <P>Experienced</P>
+                        </div>
+                    </article>
+<!---article 3-->
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Javascript </h3>
+                            <P>intermmediate</P>
+                        </div>
+                    </article>
+<!---article 4-->
+                        <article>
+                        <img src="./assets/checkmark.png" alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>React JS</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+<!---article 5-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>jQuery</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+<!---article 6-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Bootstrap </h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+                    
+               </div>
+                </div>
+                <div class="details_container">
+                    <h2 class="experience-sub-title">Backend
+                        Development
+                    </h2>
+                    <div class="article_container">                    <!---artcle1-->
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+<!---article 2-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Node JS</h3>
+                            <P>intermmediate</P>
+                        </div>
+                    </article>
+<!---article 3-->
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Express JS </h3>
+                            <P>intermmediate</P>
+                        </div>
+                    </article>
+<!---article 4-->
+                        <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Git</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+<!---article 5-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>MySQL</h3>
+                            <P>Intermmediate</P>
+                        </div>
+                    </article>
+<!---article 6-->
+                    <article>
+                        <img src="./assets/checkmark.png" 
+                        alt="experienceicon"
+                        class="icon"/>
+                        <div>
+                            <h3>Python </h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact"> 
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_info_upper_container">
+            <div class="contact_info_container">
+                <img src="./assets/email.png" alt="emailicon"
+                class="icon contact-icon email_icon"/>
+                <p><a href="mailto:shahinaks@gmail.com">Send an Email</a></p>
+            </div>
+        
+        
+            <div class="contact_info_container">
+                <img src="./assets/linkedin.png" 
+                alt="linkedinicon"
+                class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/shahina-ks">LinkedIn
+                </a></p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169 2024 Shahina Ks. All rights reserved</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
